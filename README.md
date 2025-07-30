@@ -61,5 +61,5 @@ It should look like this in Claude Desktop
 <img src="./images/claude_gcp_servers.png" width="95%" alt="Running MCP server for Claude Desktop"/>
 
 ## Note
-I use Miniconda. Hence the path to UV shows up this way. If you have different setup, you will have to figure out where is UV.exe installed.
+I use Miniconda. Hence the path to UV shows up this way. If you have different setup, you will have to figure out where UV.exe is installed.
 <br>UV setup guide: https://docs.astral.sh/uv/getting-started/installation/

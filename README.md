@@ -1,6 +1,6 @@
-# Google Calendar Events MCP
+# Google Calendar Events MCP Server
 
-Uses Google Calendar API method to fetch upcoming events.
+Uses Google Calendar API method to fetch upcoming events only.
 
 ## Test output:
 

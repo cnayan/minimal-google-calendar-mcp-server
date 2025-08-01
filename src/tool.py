@@ -14,7 +14,7 @@ Google Calendar MCP server provides tools to interact directly with the user's G
 mcp = FastMCP("Google-Calendar-MCP",instructions=instructions)
 gcal = GCalendarAPI()
 
-@mcp.tool("get-events", description="Gets specified numebr of upcoming events from Google Calendar. If number is not specified, defaults to 10.")
+@mcp.tool("get-events", description="Gets specified number of upcoming events from Google Calendar. If number is not specified, defaults to 10.")
 def get_events(num: int = 10) -> list[dict[str, object]]:
     return gcal.get(num)
 
